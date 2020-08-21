@@ -1,3 +1,18 @@
 .MuiBox-root {
-    border: 1px dotted red;
+    /* border: 1px dotted red; */
+}
+
+.section-title {
+    border: 2px solid;
+    width: 80px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.contact-item {
+    display: flex;
+    border-radius: 15px;
+    margin: 5px 5px;
+    padding: 0 5px;
+    align-items: center;
 }

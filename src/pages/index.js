@@ -1,6 +1,4 @@
 import React from "react"
-import Container from "@material-ui/core/Container"
-import Typography from "@material-ui/core/Typography"
 import Box from "@material-ui/core/Box"
 import Link from "../components/Link"
 import { Paper, Grid } from "@material-ui/core"
@@ -15,7 +13,7 @@ import '../Styles/index.css'
 
 const useStyles = makeStyles((theme) => ({
   bcg: {
-    backgroundColor: '#E9ECEF',
+    backgroundColor: '#495057',
   },
 
   paper: {
@@ -23,7 +21,6 @@ const useStyles = makeStyles((theme) => ({
     height: '792px',
     display: 'grid',
     placeItems: 'center',
-    backgroundImage: 'linear-gradient(149.67deg, rgb(248, 249, 250) 33.71%, rgb(233, 236, 239) 76.53%, rgb(248, 249, 250) 98.85%)'
   },
 
 }))
@@ -40,6 +37,7 @@ export default function Index() {
           height="780px"
           border="3px solid"
           borderRadius="10px"
+          bgcolor='background.default'
         >
           <Grid container>
             <Grid item sm={4}>
@@ -50,7 +48,7 @@ export default function Index() {
               </Box>
             </Grid>
             <Grid item sm={8}>
-              <Box display='flex' flexDirection='column' height='780px'>
+              <Box display='flex' flexDirection='column' height='765px' bgcolor='background.paper' margin='5px' borderRadius='10px' align='left'>
                 <SkillSet />
                 <Projects />
                 <WorkHistory />
