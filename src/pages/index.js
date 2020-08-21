@@ -48,7 +48,7 @@ export default function Index() {
               </Box>
             </Grid>
             <Grid item sm={8}>
-              <Box display='flex' flexDirection='column' height='765px' bgcolor='background.paper' margin='5px' borderRadius='10px' align='left'>
+              <Box display='flex' flexDirection='column' height='765px' bgcolor='background.paper' margin='5px' borderRadius='10px'>
                 <SkillSet />
                 <Projects />
                 <WorkHistory />

@@ -14,16 +14,21 @@ const AboutMe = () => {
     const classes = useStyles()
 
     return (
-      <Box>
-        <Box marginLeft="5px" bgcolor="background.paper" borderRadius='10px' p={1}>
+      <Box
+        align="right"
+        marginLeft="5px"
+        bgcolor="background.paper"
+        borderRadius="10px"
+      >
+        <Typography className="section-title" variant="subtitle2">
+          About Me
+        </Typography>
+        <Box p={1} align='center'>
           <Avatar size="large" className={classes.large}></Avatar>
           <Box>
-            <Typography className="section-title" variant="subtitle2">
-              About me
-            </Typography>
             <Typography variant="body2" align="justify" paragraph>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-              sodales consectetur tellus. Vestibulum urna risus, efficitur vitae
+              sodales consectetur tellus. Vestfibulum urna risus, efficitur vitae
               malesuada nec, faucibus nec felis. Nulla et consectetur risus.
               Quisque ac vulputate leo. Donec nec auctor mauris. Nulla hendrerit
               laoreet elementum.
