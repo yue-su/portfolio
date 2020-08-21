@@ -10,7 +10,19 @@ const SkillSet = () => {
           <Typography variant="subtitle2" className="section-title">
             Skill Set
           </Typography>
-        </Box>
+            </Box>
+            <Box>
+                <Box>
+                    <Typography>Frontend</Typography>
+                </Box>
+                <Box>
+                    <Typography>Back-end</Typography>
+                </Box>
+                    <Typography>Framework</Typography>
+                <Box>
+
+                </Box>
+            </Box>
       </Box>
     )
 }

@@ -30,25 +30,39 @@ export default function Index() {
   const classes = useStyles()
 
   return (
-    <Box align="center" className={classes.bcg} height='100vh'>
+    <Box
+      display="flex"
+      flexDirection="column"
+      justifyContent="center"
+      alignItems="center"
+      className={classes.bcg}
+      height="100vh"
+    >
       <Paper square className={classes.paper} elevation={5}>
         <Box
           width="756px"
           height="948px"
           border="3px solid"
           borderRadius="10px"
-          bgcolor='background.default'
+          bgcolor="background.default"
         >
           <Grid container>
-            <Grid item sm={4}>
-              <Box display='flex' flexDirection='column' height='933px'>
+            <Grid item sm={4} xs={12}>
+              <Box display="flex" flexDirection="column" height="933px">
                 <Title />
                 <AboutMe />
                 <Contact />
               </Box>
             </Grid>
-            <Grid item sm={8}>
-              <Box display='flex' flexDirection='column' height='933px' bgcolor='background.paper' margin='5px' borderRadius='10px'>
+            <Grid item sm={8} sx={12}>
+              <Box
+                display="flex"
+                flexDirection="column"
+                height="933px"
+                bgcolor="background.paper"
+                margin="5px"
+                borderRadius="10px"
+              >
                 <SkillSet />
                 <Projects />
                 <WorkHistory />
