@@ -6,7 +6,7 @@ const Projects = () => {
     return (
       <Box
         bgcolor="background.default"
-        height="350px"
+        height="450px"
         margin="5px"
         borderRadius="10px"
       >
