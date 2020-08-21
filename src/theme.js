@@ -14,9 +14,21 @@ const theme = createMuiTheme({
       main: red.A400,
     },
     background: {
-      default: '#fff',
+      default: '#e9ecef',
+      paper: '#f8f9fa'
     },
+    text: {
+      primary: "#212529",
+    }
   },
+  typography: {
+    body2: {
+      fontSize: "0.75rem"
+    },
+    subtitle2: {
+      fontSize: "0.8rem"
+    }
+  }
 });
 
 export default theme;
