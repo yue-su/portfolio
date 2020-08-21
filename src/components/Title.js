@@ -12,7 +12,7 @@ const Title = () => {
     >
       <Box align="left">
         <Typography variant="h5">Yue Su</Typography>
-        <Typography variant="subtitle2">Web Developer</Typography>
+        <Typography variant="subtitle2">Full-Stack Web Developer</Typography>
       </Box>
     </Box>
   )
