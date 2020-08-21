@@ -23,10 +23,10 @@ const theme = createMuiTheme({
   },
   typography: {
     body2: {
-      fontSize: "0.75rem"
+      
     },
     subtitle2: {
-      fontSize: "0.8rem"
+      
     }
   }
 });
