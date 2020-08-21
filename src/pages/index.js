@@ -18,7 +18,7 @@ const useStyles = makeStyles((theme) => ({
 
   paper: {
     width: '768px',
-    height: '994px',
+    height: '960px',
     display: 'grid',
     placeItems: 'center',
   },
@@ -34,21 +34,21 @@ export default function Index() {
       <Paper square className={classes.paper} elevation={5}>
         <Box
           width="756px"
-          height="982px"
+          height="948px"
           border="3px solid"
           borderRadius="10px"
           bgcolor='background.default'
         >
           <Grid container>
             <Grid item sm={4}>
-              <Box display='flex' flexDirection='column' height='965px'>
+              <Box display='flex' flexDirection='column' height='933px'>
                 <Title />
                 <AboutMe />
                 <Contact />
               </Box>
             </Grid>
             <Grid item sm={8}>
-              <Box display='flex' flexDirection='column' height='965px' bgcolor='background.paper' margin='5px' borderRadius='10px'>
+              <Box display='flex' flexDirection='column' height='933px' bgcolor='background.paper' margin='5px' borderRadius='10px'>
                 <SkillSet />
                 <Projects />
                 <WorkHistory />
